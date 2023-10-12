@@ -1,2 +1,3 @@
-﻿  basic_text_shape_right_traing.c
-  C_Programming_Refresher.vcxproj -> C:\Programming_Education\C_Programming_Tut_freeCodeCamp\C_Programming_Refresher\x64\Debug\C_Programming_Refresher.exe
+﻿  external.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Programming_Education\C_Programming_Tut_freeCodeCamp\C_Programming_Refresher\x64\Debug\C_Programming_Refresher.exe : fatal error LNK1120: 1 unresolved externals

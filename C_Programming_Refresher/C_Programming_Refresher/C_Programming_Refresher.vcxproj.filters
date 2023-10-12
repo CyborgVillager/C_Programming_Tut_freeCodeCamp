@@ -13,11 +13,56 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Hello_World">
+    <Filter Include="Source Files\FreeCodeCamp">
+      <UniqueIdentifier>{40675a13-7fc2-404e-bf8d-98cd6e446112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\Working_With_Numbers">
+      <UniqueIdentifier>{8549cb66-193d-4397-a474-f2b16790d720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\Variables">
+      <UniqueIdentifier>{bb480b2a-0fbf-4bcf-b9be-c9e93e101bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\User_Input">
+      <UniqueIdentifier>{fdaac0c0-0c6f-4e6a-ba9d-2a592e98d12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\Hello_World">
       <UniqueIdentifier>{3238504d-525d-4dba-8fee-2e0d8e147ad9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Drawing_Shape">
+    <Filter Include="Source Files\FreeCodeCamp\Drawing_Shape">
       <UniqueIdentifier>{d85c1d20-5db8-49fa-923e-fdf44cebd008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\DataTypes">
+      <UniqueIdentifier>{b476b637-f3f8-4ed1-90a1-dccbc19a8272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\Constant">
+      <UniqueIdentifier>{d4541c24-1961-4210-b3d5-0fa2d21d7f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreeCodeCamp\Calc">
+      <UniqueIdentifier>{94b61fb5-88ff-45b2-814f-8192c35c5919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com">
+      <UniqueIdentifier>{ad8d9661-b881-41af-b6b1-2bb92bf2fc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\basic_calc">
+      <UniqueIdentifier>{9931ce28-b8b8-47f1-a84b-2a572c032cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\if_else">
+      <UniqueIdentifier>{b3b27f2c-e655-49c2-a4fe-8c5247a0b139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\for_loop">
+      <UniqueIdentifier>{de0b94d6-3757-4e99-a50d-6120c92a6818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\break_and_continue">
+      <UniqueIdentifier>{003aa7f9-5231-41dc-bd31-5692340a3ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\switch_case_statement">
+      <UniqueIdentifier>{7bbf4e49-910e-4e08-ae3c-0d3d0099ca7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\goto">
+      <UniqueIdentifier>{ea47aa0f-15d2-491d-bfe5-dfe378a6c8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\programiz.com\Storage_Class">
+      <UniqueIdentifier>{f91b3179-c09e-477e-8bc5-e2320e780b71}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,10 +72,79 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\C_freeCodeCamp\C-Programming-Tutorial----FreeCodeCamp.org\Free_CodeCamp\Hello_World\hello_world.c">
-      <Filter>Source Files\Hello_World</Filter>
+      <Filter>Source Files\FreeCodeCamp\Hello_World</Filter>
     </ClCompile>
     <ClCompile Include="basic_text_shape_right_traing.c">
-      <Filter>Source Files\Drawing_Shape</Filter>
+      <Filter>Source Files\FreeCodeCamp\Drawing_Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="variable_basic.c">
+      <Filter>Source Files\FreeCodeCamp\Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype_basic.c">
+      <Filter>Source Files\FreeCodeCamp\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="work_w_numbs.c">
+      <Filter>Source Files\FreeCodeCamp\Working_With_Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="constant_fil.c">
+      <Filter>Source Files\FreeCodeCamp\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="calc_basic.c">
+      <Filter>Source Files\FreeCodeCamp\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="user_input_basic.c">
+      <Filter>Source Files\FreeCodeCamp</Filter>
+    </ClCompile>
+    <ClCompile Include="calc.c">
+      <Filter>Source Files\programiz.com\basic_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="if_else_v0.c">
+      <Filter>Source Files\programiz.com\if_else</Filter>
+    </ClCompile>
+    <ClCompile Include="if_else_v1.c">
+      <Filter>Source Files\programiz.com\if_else</Filter>
+    </ClCompile>
+    <ClCompile Include="if_else_v2.c">
+      <Filter>Source Files\programiz.com\if_else</Filter>
+    </ClCompile>
+    <ClCompile Include="for_loop_v0.c">
+      <Filter>Source Files\programiz.com\for_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="for_loop_v1.c">
+      <Filter>Source Files\programiz.com\for_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="break_cont_v0.c">
+      <Filter>Source Files\programiz.com\break_and_continue</Filter>
+    </ClCompile>
+    <ClCompile Include="break_cont_v1_cont_version.c">
+      <Filter>Source Files\programiz.com\break_and_continue</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_calc.c">
+      <Filter>Source Files\programiz.com\switch_case_statement</Filter>
+    </ClCompile>
+    <ClCompile Include="switch_case_v0.c">
+      <Filter>Source Files\programiz.com\switch_case_statement</Filter>
+    </ClCompile>
+    <ClCompile Include="switch_case_v3.c">
+      <Filter>Source Files\programiz.com\switch_case_statement</Filter>
+    </ClCompile>
+    <ClCompile Include="go_to_v0.c">
+      <Filter>Source Files\programiz.com\goto</Filter>
+    </ClCompile>
+    <ClCompile Include="avg_c.c">
+      <Filter>Source Files\programiz.com\Storage_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>Source Files\programiz.com\Storage_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="static.c">
+      <Filter>Source Files\programiz.com\Storage_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files\programiz.com\Storage_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="external.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -109,6 +109,12 @@
     <Filter Include="Source Files\2nd-Edition_C\Opengl_test">
       <UniqueIdentifier>{d3eccd2f-20fe-49ac-aa1e-678a1d3cf80e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\random_snake_game">
+      <UniqueIdentifier>{d7de0453-b5d0-408d-992f-76a39f15ee18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Guess_the_number">
+      <UniqueIdentifier>{567653b6-d088-4dde-b4c5-ce4adcfd7263}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\C_freeCodeCamp\C-Programming-Tutorial----FreeCodeCamp.org\README.md">
@@ -255,7 +261,13 @@
       <Filter>Source Files\2nd-Edition_C\Opengl_test</Filter>
     </ClCompile>
     <ClCompile Include="basic_cube.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\2nd-Edition_C\Opengl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_basic_boundary.c">
+      <Filter>Source Files\2nd-Edition_C\random_snake_game</Filter>
+    </ClCompile>
+    <ClCompile Include="guess_number.c">
+      <Filter>Source Files\2nd-Edition_C\Guess_the_number</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -64,6 +64,51 @@
     <Filter Include="Source Files\programiz.com\Storage_Class">
       <UniqueIdentifier>{f91b3179-c09e-477e-8bc5-e2320e780b71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\2nd-Edition_C">
+      <UniqueIdentifier>{b2b9bf2f-53e4-4fb3-8b34-1fe1f4cd33e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\variable_and_athie_expression">
+      <UniqueIdentifier>{92c41172-209a-4031-bf3e-e54ec59ccc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\for_loop">
+      <UniqueIdentifier>{d58d50bb-3ffc-495e-afdf-15ec7062a053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Symbolic_Constant">
+      <UniqueIdentifier>{47ace14b-c2ec-4d0e-9e1d-3a486a46a558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Chara_Input_And_Output">
+      <UniqueIdentifier>{a42195ce-9fb1-475d-9149-7ab5796dc812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\text_copying">
+      <UniqueIdentifier>{6ecf9bae-d442-43ad-a996-a13fb17aa6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Chara_Counting">
+      <UniqueIdentifier>{93ce04d2-3adc-4496-82e3-5bf740253546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Line_Counting">
+      <UniqueIdentifier>{9aaf3731-00c7-4b0f-91cb-b1213146fa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Word_Count">
+      <UniqueIdentifier>{04be123f-101f-427c-bdda-e44fce2cff88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Array">
+      <UniqueIdentifier>{22cfac22-fbc9-42b1-b129-3024c5544127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Functions">
+      <UniqueIdentifier>{f1a609b9-946c-4f4d-bcb5-0b142d72cf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Arguments - Call by Value">
+      <UniqueIdentifier>{a95837a7-2e90-4b2f-94e2-eae88039c326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Character-Array">
+      <UniqueIdentifier>{a1b2545b-6c2d-4c1f-90dd-8fc56571c85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\External_Variable_and_Scope">
+      <UniqueIdentifier>{63471019-8610-4954-b133-82d6e59a56f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Opengl_test">
+      <UniqueIdentifier>{d3eccd2f-20fe-49ac-aa1e-678a1d3cf80e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\C_freeCodeCamp\C-Programming-Tutorial----FreeCodeCamp.org\README.md">
@@ -144,6 +189,72 @@
       <Filter>Source Files\programiz.com\Storage_Class</Filter>
     </ClCompile>
     <ClCompile Include="external.c">
+      <Filter>Source Files\programiz.com\Storage_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="arthie_vari.c">
+      <Filter>Source Files\2nd-Edition_C\variable_and_athie_expression</Filter>
+    </ClCompile>
+    <ClCompile Include="arthie_vari_v1.c">
+      <Filter>Source Files\2nd-Edition_C\variable_and_athie_expression</Filter>
+    </ClCompile>
+    <ClCompile Include="for_statement_arthie_varie_v2.c">
+      <Filter>Source Files\2nd-Edition_C\variable_and_athie_expression</Filter>
+    </ClCompile>
+    <ClCompile Include="2nd_edition_for_loop_v0.c">
+      <Filter>Source Files\2nd-Edition_C\for_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbolic_Constant_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Symbolic_Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="text_copy_v0.c">
+      <Filter>Source Files\2nd-Edition_C\text_copying</Filter>
+    </ClCompile>
+    <ClCompile Include="chara_counting_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Chara_Counting</Filter>
+    </ClCompile>
+    <ClCompile Include="chara_counting_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Chara_Counting</Filter>
+    </ClCompile>
+    <ClCompile Include="line_count.c">
+      <Filter>Source Files\2nd-Edition_C\text_copying</Filter>
+    </ClCompile>
+    <ClCompile Include="word_counting.c">
+      <Filter>Source Files\2nd-Edition_C\Word_Count</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v2_VP_or_Mabi_starting_point_big_bang_who_knows_just_was_there_and_always_be_there_kek.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="arg_call_by_value_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Arguments - Call by Value</Filter>
+    </ClCompile>
+    <ClCompile Include="arg_by_value_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Arguments - Call by Value</Filter>
+    </ClCompile>
+    <ClCompile Include="chara_array_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Character-Array</Filter>
+    </ClCompile>
+    <ClCompile Include="chara-array_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Character-Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ext_vari_and_scope.c">
+      <Filter>Source Files\2nd-Edition_C\External_Variable_and_Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_window.c">
+      <Filter>Source Files\2nd-Edition_C\Opengl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_cube.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

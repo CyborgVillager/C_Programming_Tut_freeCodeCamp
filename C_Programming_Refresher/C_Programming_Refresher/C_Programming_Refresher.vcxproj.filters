@@ -151,6 +151,30 @@
     <Filter Include="Source Files\2nd-Edition_C\pthreads">
       <UniqueIdentifier>{48ed0b3a-c611-4895-834d-d7ad778d96fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\file_inclusion">
+      <UniqueIdentifier>{5e76cdf3-0a27-4ad8-82df-8d4fac37bbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\file_inclusion\file_inclu_v0">
+      <UniqueIdentifier>{bc206017-57a9-4671-add4-3a26ceba5aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\file_inclusion\file_includ_v1">
+      <UniqueIdentifier>{2baceff7-647a-41a9-aea6-887e99637568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\file_inclusion\file_includ_v1\Utils">
+      <UniqueIdentifier>{667b3b15-7672-439d-9dcc-a6e214106beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\NewFilter1">
+      <UniqueIdentifier>{56964ff8-e806-4243-8f13-0733376097a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Array\Old_Array">
+      <UniqueIdentifier>{389241fe-c217-464d-b058-1814b97ad910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Array\Array_of_Structure">
+      <UniqueIdentifier>{17a5e3f1-ef9a-4cc4-aadb-7ce5cb69c387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2nd-Edition_C\Array\Multidemen_Array">
+      <UniqueIdentifier>{9a527efc-8a51-4e61-99e1-0f156a693d7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\C_freeCodeCamp\C-Programming-Tutorial----FreeCodeCamp.org\README.md">
@@ -262,15 +286,6 @@
     </ClCompile>
     <ClCompile Include="word_counting.c">
       <Filter>Source Files\2nd-Edition_C\Word_Count</Filter>
-    </ClCompile>
-    <ClCompile Include="array_v0.c">
-      <Filter>Source Files\2nd-Edition_C\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="array_v1.c">
-      <Filter>Source Files\2nd-Edition_C\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="array_v2_VP_or_Mabi_starting_point_big_bang_who_knows_just_was_there_and_always_be_there_kek.c">
-      <Filter>Source Files\2nd-Edition_C\Array</Filter>
     </ClCompile>
     <ClCompile Include="Function_v0.c">
       <Filter>Source Files\2nd-Edition_C\Functions</Filter>
@@ -392,10 +407,58 @@
     <ClCompile Include="simple_creation_joining.c">
       <Filter>Source Files\2nd-Edition_C\pthreads</Filter>
     </ClCompile>
+    <ClCompile Include="file_inc.c">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_main.c">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_inclu_v0</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_inclu_v0</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_main_v1.c">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_includ_v1</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_utils.h">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_includ_v1\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils_basic_v1.c">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_includ_v1</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Old_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Old_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_v2_VP_or_Mabi_starting_point_big_bang_who_knows_just_was_there_and_always_be_there_kek.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Old_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_new_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_new_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_new_v2.c">
+      <Filter>Source Files\2nd-Edition_C\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_dem_array_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Multidemen_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_dem_array_v1.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Multidemen_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="three_d_array_v0.c">
+      <Filter>Source Files\2nd-Edition_C\Array\Multidemen_Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header_v0.h">
       <Filter>Source Files\2nd-Edition_C\Header_File\Head_example_v0</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\2nd-Edition_C\file_inclusion\file_inclu_v0</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
